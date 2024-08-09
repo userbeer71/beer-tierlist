@@ -166,7 +166,7 @@
         function initBeers(addr) {
             for (const beerTier of beers) {
                 for (const beer of beerTier[0]) {
-                    beer.img = `${addr}$/static/{beer.img}`
+                    beer.img = `${addr}/static/${beer.img}`
                     beer.render(beerTier[1])
                 }
             }
